@@ -19,4 +19,5 @@ Bidbridge has schedule feasibility as well, since the development would be broke
 
 
 5.	Overall Feasibility
+
 Overall, the project is completely feasible from a technical, economic, operational and scheduling perspective. It checks off each feasibility factor, with the main constraint being the secure payment integration and the overall integration of all components within the system. 
