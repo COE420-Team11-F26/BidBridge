@@ -1,0 +1,426 @@
+<mxfile host="app.diagrams.net" agent="draw.io" pages="2">
+  <diagram id="overall" name="Overall BidBridge Use Cases">
+    <mxGraphModel dx="2533" dy="1538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="2210" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary_title" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontColor=#212121;fontSize=21;fontStyle=1;" value="BidBridge System" vertex="1">
+          <mxGeometry height="34" width="560" x="328" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="section0" parent="1" style="rounded=0;strokeColor=#D4D4D4;strokeWidth=0.7;fillColor=#FAFAFA;" value="" vertex="1">
+          <mxGeometry height="404" width="1860" x="319" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="sectitle0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontColor=#212121;fontSize=16;fontStyle=1;fontColor=#555555;" value="1  Accounts and discovery" vertex="1">
+          <mxGeometry height="30" width="940" x="344" y="264" as="geometry" />
+        </mxCell>
+        <mxCell id="section1" parent="1" style="rounded=0;strokeColor=#D4D4D4;strokeWidth=0.7;fillColor=#FAFAFA;" value="" vertex="1">
+          <mxGeometry height="404" width="1860" x="319" y="688" as="geometry" />
+        </mxCell>
+        <mxCell id="sectitle1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontColor=#212121;fontSize=16;fontStyle=1;fontColor=#555555;" value="2  Bidding and selection" vertex="1">
+          <mxGeometry height="30" width="940" x="344" y="702" as="geometry" />
+        </mxCell>
+        <mxCell id="section2" parent="1" style="rounded=0;strokeColor=#D4D4D4;strokeWidth=0.7;fillColor=#FAFAFA;" value="" vertex="1">
+          <mxGeometry height="404" width="1860" x="319" y="1126" as="geometry" />
+        </mxCell>
+        <mxCell id="sectitle2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontColor=#212121;fontSize=16;fontStyle=1;fontColor=#555555;" value="3  Work and completion" vertex="1">
+          <mxGeometry height="30" width="940" x="344" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="section3" parent="1" style="rounded=0;strokeColor=#D4D4D4;strokeWidth=0.7;fillColor=#FAFAFA;" value="" vertex="1">
+          <mxGeometry height="404" width="1860" x="319" y="1564" as="geometry" />
+        </mxCell>
+        <mxCell id="sectitle3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontColor=#212121;fontSize=16;fontStyle=1;fontColor=#555555;" value="4  Payments, disputes and moderation" vertex="1">
+          <mxGeometry height="30" width="940" x="344" y="1578" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_C_0" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeColor=#292929;fillColor=#FFFFFF;fontFamily=Arial;fontSize=16;" value="Client" vertex="1">
+          <mxGeometry height="106" width="110" x="94" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_F_0" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeColor=#292929;fillColor=#FFFFFF;fontFamily=Arial;fontSize=16;" value="Freelancer" vertex="1">
+          <mxGeometry height="106" width="110" x="2292" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_A_0" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeColor=#292929;fillColor=#FFFFFF;fontFamily=Arial;fontSize=16;" value="Platform&lt;br/&gt;Administrator" vertex="1">
+          <mxGeometry height="106" width="110" x="2292" y="548" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_C_1" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeColor=#292929;fillColor=#FFFFFF;fontFamily=Arial;fontSize=16;" value="Client" vertex="1">
+          <mxGeometry height="106" width="110" x="94" y="836" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_F_1" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeColor=#292929;fillColor=#FFFFFF;fontFamily=Arial;fontSize=16;" value="Freelancer" vertex="1">
+          <mxGeometry height="106" width="110" x="2292" y="836" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_C_2" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeColor=#292929;fillColor=#FFFFFF;fontFamily=Arial;fontSize=16;" value="Client" vertex="1">
+          <mxGeometry height="106" width="110" x="94" y="1274" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_F_2" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeColor=#292929;fillColor=#FFFFFF;fontFamily=Arial;fontSize=16;" value="Freelancer" vertex="1">
+          <mxGeometry height="106" width="110" x="2292" y="1274" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_P_2" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeColor=#292929;fillColor=#FFFFFF;fontFamily=Arial;fontSize=16;" value="Payment /&lt;br/&gt;Escrow Service" vertex="1">
+          <mxGeometry height="106" width="110" x="95" y="1404" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_C_3" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeColor=#292929;fillColor=#FFFFFF;fontFamily=Arial;fontSize=16;" value="Client" vertex="1">
+          <mxGeometry height="106" width="110" x="94" y="1712" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_F_3" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeColor=#292929;fillColor=#FFFFFF;fontFamily=Arial;fontSize=16;" value="Freelancer" vertex="1">
+          <mxGeometry height="106" width="110" x="2292" y="1712" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_P_3" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeColor=#292929;fillColor=#FFFFFF;fontFamily=Arial;fontSize=16;" value="Payment /&lt;br/&gt;Escrow Service" vertex="1">
+          <mxGeometry height="106" width="110" x="95" y="1842" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_A_3" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeColor=#292929;fillColor=#FFFFFF;fontFamily=Arial;fontSize=16;" value="Platform&lt;br/&gt;Administrator" vertex="1">
+          <mxGeometry height="106" width="110" x="2292" y="1842" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-16_C" edge="1" parent="1" source="actor_C_0" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-16_F" edge="1" parent="1" source="uc_UC-06" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-06_C" edge="1" parent="1" source="actor_C_0" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-06" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-06_F" edge="1" parent="1" source="actor_F_0" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-06" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-06_A" edge="1" parent="1" source="actor_A_0" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-06" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-10_C" edge="1" parent="1" source="actor_C_0" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-10_F" edge="1" parent="1" source="actor_F_0" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-17_C" edge="1" parent="1" source="actor_C_0" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-19_F" edge="1" parent="1" source="actor_F_0" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-11_C" edge="1" parent="1" source="actor_C_1" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-07_C" edge="1" parent="1" source="actor_C_1" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-07" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-18_F" edge="1" parent="1" source="actor_F_1" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-12_F" edge="1" parent="1" source="actor_F_1" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-08_F" edge="1" parent="1" source="actor_F_1" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-08" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-01_C" edge="1" parent="1" source="actor_C_2" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-01" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-01_P" edge="1" parent="1" source="actor_P_2" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-01" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-09_C" edge="1" parent="1" source="actor_C_2" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-09" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-09_F" edge="1" parent="1" source="actor_F_2" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-09" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-02_F" edge="1" parent="1" source="actor_F_2" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-02" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-03_C" edge="1" parent="1" source="actor_C_2" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-03" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-20_C" edge="1" parent="1" source="actor_C_2" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-20_F" edge="1" parent="1" source="actor_F_2" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-04_C" edge="1" parent="1" source="actor_C_3" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-04" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-04_P" edge="1" parent="1" source="actor_P_3" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-04" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-05_C" edge="1" parent="1" source="actor_C_3" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-05" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-05_F" edge="1" parent="1" source="actor_F_3" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-05" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-15_C" edge="1" parent="1" source="actor_C_3" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-15_F" edge="1" parent="1" source="actor_F_3" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-13_A" edge="1" parent="1" source="actor_A_3" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_UC-14_A" edge="1" parent="1" source="actor_A_3" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_R-08" edge="1" parent="1" source="uc_UC-08" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;dashPattern=5 4;strokeColor=#303030;strokeWidth=1.55;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;" target="uc_UC-12" value="&amp;laquo;extend&amp;raquo;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_R-10" edge="1" parent="1" source="uc_UC-07" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;dashPattern=5 4;strokeColor=#303030;strokeWidth=1.55;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;" target="uc_UC-11" value="&amp;laquo;extend&amp;raquo;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_R-11" edge="1" parent="1" source="uc_UC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;dashPattern=5 4;strokeColor=#303030;strokeWidth=1.55;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;" target="uc_UC-14" value="&amp;laquo;extend&amp;raquo;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_R-01" edge="1" parent="1" source="uc_UC-04" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;dashPattern=5 4;strokeColor=#303030;strokeWidth=1.55;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;" target="uc_UC-03" value="&amp;laquo;extend&amp;raquo;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_R-04" edge="1" parent="1" source="uc_UC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;dashPattern=5 4;strokeColor=#303030;strokeWidth=1.55;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;" target="uc_UC-06" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_UC-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-16&lt;/b&gt;&lt;br/&gt;Register New Account" vertex="1">
+          <mxGeometry height="94" width="405" x="420" y="304" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_UC-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-10&lt;/b&gt;&lt;br/&gt;Manage Profile and Portfolio" vertex="1">
+          <mxGeometry height="94" width="405" x="1570" y="316" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_UC-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-17&lt;/b&gt;&lt;br/&gt;Create Task Posting" vertex="1">
+          <mxGeometry height="94" width="405" x="740" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_UC-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-19&lt;/b&gt;&lt;br/&gt;Search Open Tasks" vertex="1">
+          <mxGeometry height="94" width="405" x="1260" y="502" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_UC-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-11&lt;/b&gt;&lt;br/&gt;View Bid Notifications" vertex="1">
+          <mxGeometry height="94" width="405" x="420" y="782" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_UC-07" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-07&lt;/b&gt;&lt;br/&gt;View and Compare Bids" vertex="1">
+          <mxGeometry height="94" width="405" x="980" y="782" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_UC-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-18&lt;/b&gt;&lt;br/&gt;Place Initial Bid" vertex="1">
+          <mxGeometry height="94" width="405" x="1540" y="782" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_UC-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-12&lt;/b&gt;&lt;br/&gt;View Submitted Bid History" vertex="1">
+          <mxGeometry height="94" width="405" x="700" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_UC-08" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-08&lt;/b&gt;&lt;br/&gt;Edit or Withdraw Bid" vertex="1">
+          <mxGeometry height="94" width="405" x="1260" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_UC-01" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-01&lt;/b&gt;&lt;br/&gt;Accept Bid and Fund Escrow" vertex="1">
+          <mxGeometry height="94" width="405" x="420" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_UC-09" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-09&lt;/b&gt;&lt;br/&gt;Send Job Message" vertex="1">
+          <mxGeometry height="94" width="405" x="980" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_UC-02" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-02&lt;/b&gt;&lt;br/&gt;Submit Work" vertex="1">
+          <mxGeometry height="94" width="405" x="1540" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_UC-03" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-03&lt;/b&gt;&lt;br/&gt;Review Submission" vertex="1">
+          <mxGeometry height="94" width="405" x="700" y="1378" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_UC-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-20&lt;/b&gt;&lt;br/&gt;Submit Star Ratings" vertex="1">
+          <mxGeometry height="94" width="405" x="1260" y="1378" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_UC-04" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-04&lt;/b&gt;&lt;br/&gt;Release Escrow Payment" vertex="1">
+          <mxGeometry height="94" width="405" x="420" y="1658" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_UC-05" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-05&lt;/b&gt;&lt;br/&gt;Open Dispute" vertex="1">
+          <mxGeometry height="94" width="405" x="980" y="1658" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_UC-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-15&lt;/b&gt;&lt;br/&gt;View Transaction History" vertex="1">
+          <mxGeometry height="94" width="405" x="1540" y="1658" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_UC-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-13&lt;/b&gt;&lt;br/&gt;Moderate User Account" vertex="1">
+          <mxGeometry height="94" width="405" x="700" y="1816" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_UC-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-14&lt;/b&gt;&lt;br/&gt;Moderate Job Posting" vertex="1">
+          <mxGeometry height="94" width="405" x="1260" y="1816" as="geometry" />
+        </mxCell>
+        <mxCell id="mVTpaz3KR0BYC4M8U_Cg-1" edge="1" parent="1" source="actor_F_0" style="edgeStyle=none;html=1;endArrow=none;startArrow=none;strokeColor=#878787;strokeWidth=1.15;" target="uc_UC-06" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2292" y="448" as="sourcePoint" />
+            <mxPoint x="819" y="362" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc_UC-06" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;UC-06&lt;/b&gt;&lt;br/&gt;Log In" vertex="1">
+          <mxGeometry height="94" width="405" x="990" y="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="relationships" name="Relationship Links (supplement)">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rt" value="BidBridge | Use Case Relationships" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontColor=#212121;fontSize=27;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="34" width="1700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rst" value="Supplement to the overall use-case diagram (same system and use-case IDs)" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontColor=#212121;fontSize=16;fontColor=#555555;" parent="1" vertex="1">
+          <mxGeometry x="120" y="87" width="2000" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="panel_R-01" value="" style="rounded=0;strokeColor=#E5E5E5;strokeWidth=1;fillColor=#FAFAFA;" parent="1" vertex="1">
+          <mxGeometry x="140" y="165" width="1040" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="name_R-01" value="R-01" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontColor=#212121;fontSize=15;fontStyle=1;fontColor=#444444;" parent="1" vertex="1">
+          <mxGeometry x="158" y="173" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-01_s" value="&lt;b&gt;UC-04&lt;/b&gt;&lt;br/&gt;Release Escrow Payment" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="188" y="233" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-01_t" value="&lt;b&gt;UC-03&lt;/b&gt;&lt;br/&gt;Review Submission" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="784" y="233" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2_R-01" value="&amp;laquo;extend&amp;raquo;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;dashPattern=5 4;strokeColor=#303030;strokeWidth=1.55;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;" parent="1" edge="1" source="reluc_R-01_s" target="reluc_R-01_t">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="panel_R-02" value="" style="rounded=0;strokeColor=#E5E5E5;strokeWidth=1;fillColor=#FAFAFA;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="165" width="1040" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="name_R-02" value="R-02" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontColor=#212121;fontSize=15;fontStyle=1;fontColor=#444444;" parent="1" vertex="1">
+          <mxGeometry x="1298" y="173" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-02_s" value="&lt;b&gt;UC-05&lt;/b&gt;&lt;br/&gt;Open Dispute" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="1328" y="233" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-02_t" value="&lt;b&gt;UC-03&lt;/b&gt;&lt;br/&gt;Review Submission" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="1924" y="233" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2_R-02" value="&amp;laquo;extend&amp;raquo;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;dashPattern=5 4;strokeColor=#303030;strokeWidth=1.55;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;" parent="1" edge="1" source="reluc_R-02_s" target="reluc_R-02_t">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="panel_R-04" value="" style="rounded=0;strokeColor=#E5E5E5;strokeWidth=1;fillColor=#FAFAFA;" parent="1" vertex="1">
+          <mxGeometry x="140" y="418" width="1040" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="name_R-04" value="R-04" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontColor=#212121;fontSize=15;fontStyle=1;fontColor=#444444;" parent="1" vertex="1">
+          <mxGeometry x="158" y="426" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-04_s" value="&lt;b&gt;UC-17&lt;/b&gt;&lt;br/&gt;Create Task Posting" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="188" y="486" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-04_t" value="&lt;b&gt;UC-06&lt;/b&gt;&lt;br/&gt;Log In" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="784" y="486" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2_R-04" value="&amp;laquo;include&amp;raquo;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;dashPattern=5 4;strokeColor=#303030;strokeWidth=1.55;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;" parent="1" edge="1" source="reluc_R-04_s" target="reluc_R-04_t">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="panel_R-05" value="" style="rounded=0;strokeColor=#E5E5E5;strokeWidth=1;fillColor=#FAFAFA;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="418" width="1040" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="name_R-05" value="R-05" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontColor=#212121;fontSize=15;fontStyle=1;fontColor=#444444;" parent="1" vertex="1">
+          <mxGeometry x="1298" y="426" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-05_s" value="&lt;b&gt;UC-18&lt;/b&gt;&lt;br/&gt;Place Initial Bid" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="1328" y="486" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-05_t" value="&lt;b&gt;UC-06&lt;/b&gt;&lt;br/&gt;Log In" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="1924" y="486" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2_R-05" value="&amp;laquo;include&amp;raquo;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;dashPattern=5 4;strokeColor=#303030;strokeWidth=1.55;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;" parent="1" edge="1" source="reluc_R-05_s" target="reluc_R-05_t">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="panel_R-06" value="" style="rounded=0;strokeColor=#E5E5E5;strokeWidth=1;fillColor=#FAFAFA;" parent="1" vertex="1">
+          <mxGeometry x="140" y="671" width="1040" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="name_R-06" value="R-06" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontColor=#212121;fontSize=15;fontStyle=1;fontColor=#444444;" parent="1" vertex="1">
+          <mxGeometry x="158" y="679" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-06_s" value="&lt;b&gt;UC-20&lt;/b&gt;&lt;br/&gt;Submit Star Ratings" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="188" y="739" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-06_t" value="&lt;b&gt;UC-04&lt;/b&gt;&lt;br/&gt;Release Escrow Payment" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="784" y="739" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2_R-06" value="&amp;laquo;extend&amp;raquo;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;dashPattern=5 4;strokeColor=#303030;strokeWidth=1.55;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;" parent="1" edge="1" source="reluc_R-06_s" target="reluc_R-06_t">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="panel_R-07" value="" style="rounded=0;strokeColor=#E5E5E5;strokeWidth=1;fillColor=#FAFAFA;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="671" width="1040" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="name_R-07" value="R-07" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontColor=#212121;fontSize=15;fontStyle=1;fontColor=#444444;" parent="1" vertex="1">
+          <mxGeometry x="1298" y="679" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-07_s" value="&lt;b&gt;UC-01&lt;/b&gt;&lt;br/&gt;Accept Bid and Fund Escrow" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="1328" y="739" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-07_t" value="&lt;b&gt;UC-07&lt;/b&gt;&lt;br/&gt;View and Compare Bids" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="1924" y="739" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2_R-07" value="&amp;laquo;extend&amp;raquo;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;dashPattern=5 4;strokeColor=#303030;strokeWidth=1.55;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;" parent="1" edge="1" source="reluc_R-07_s" target="reluc_R-07_t">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="panel_R-08" value="" style="rounded=0;strokeColor=#E5E5E5;strokeWidth=1;fillColor=#FAFAFA;" parent="1" vertex="1">
+          <mxGeometry x="140" y="924" width="1040" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="name_R-08" value="R-08" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontColor=#212121;fontSize=15;fontStyle=1;fontColor=#444444;" parent="1" vertex="1">
+          <mxGeometry x="158" y="932" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-08_s" value="&lt;b&gt;UC-08&lt;/b&gt;&lt;br/&gt;Edit or Withdraw Bid" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="188" y="992" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-08_t" value="&lt;b&gt;UC-12&lt;/b&gt;&lt;br/&gt;View Submitted Bid History" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="784" y="992" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2_R-08" value="&amp;laquo;extend&amp;raquo;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;dashPattern=5 4;strokeColor=#303030;strokeWidth=1.55;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;" parent="1" edge="1" source="reluc_R-08_s" target="reluc_R-08_t">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="panel_R-09" value="" style="rounded=0;strokeColor=#E5E5E5;strokeWidth=1;fillColor=#FAFAFA;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="924" width="1040" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="name_R-09" value="R-09" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontColor=#212121;fontSize=15;fontStyle=1;fontColor=#444444;" parent="1" vertex="1">
+          <mxGeometry x="1298" y="932" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-09_s" value="&lt;b&gt;UC-09&lt;/b&gt;&lt;br/&gt;Send Job Message" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="1328" y="992" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-09_t" value="&lt;b&gt;UC-03&lt;/b&gt;&lt;br/&gt;Review Submission" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="1924" y="992" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2_R-09" value="&amp;laquo;extend&amp;raquo;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;dashPattern=5 4;strokeColor=#303030;strokeWidth=1.55;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;" parent="1" edge="1" source="reluc_R-09_s" target="reluc_R-09_t">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="panel_R-10" value="" style="rounded=0;strokeColor=#E5E5E5;strokeWidth=1;fillColor=#FAFAFA;" parent="1" vertex="1">
+          <mxGeometry x="140" y="1177" width="1040" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="name_R-10" value="R-10" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontColor=#212121;fontSize=15;fontStyle=1;fontColor=#444444;" parent="1" vertex="1">
+          <mxGeometry x="158" y="1185" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-10_s" value="&lt;b&gt;UC-07&lt;/b&gt;&lt;br/&gt;View and Compare Bids" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="188" y="1245" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-10_t" value="&lt;b&gt;UC-11&lt;/b&gt;&lt;br/&gt;View Bid Notifications" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="784" y="1245" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2_R-10" value="&amp;laquo;extend&amp;raquo;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;dashPattern=5 4;strokeColor=#303030;strokeWidth=1.55;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;" parent="1" edge="1" source="reluc_R-10_s" target="reluc_R-10_t">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="panel_R-11" value="" style="rounded=0;strokeColor=#E5E5E5;strokeWidth=1;fillColor=#FAFAFA;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="1177" width="1040" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="name_R-11" value="R-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontColor=#212121;fontSize=15;fontStyle=1;fontColor=#444444;" parent="1" vertex="1">
+          <mxGeometry x="1298" y="1185" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-11_s" value="&lt;b&gt;UC-13&lt;/b&gt;&lt;br/&gt;Moderate User Account" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="1328" y="1245" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-11_t" value="&lt;b&gt;UC-14&lt;/b&gt;&lt;br/&gt;Moderate Job Posting" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="1924" y="1245" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2_R-11" value="&amp;laquo;extend&amp;raquo;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;dashPattern=5 4;strokeColor=#303030;strokeWidth=1.55;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;" parent="1" edge="1" source="reluc_R-11_s" target="reluc_R-11_t">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="panel_R-12" value="" style="rounded=0;strokeColor=#E5E5E5;strokeWidth=1;fillColor=#FAFAFA;" parent="1" vertex="1">
+          <mxGeometry x="140" y="1430" width="1040" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="name_R-12" value="R-12" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontColor=#212121;fontSize=15;fontStyle=1;fontColor=#444444;" parent="1" vertex="1">
+          <mxGeometry x="158" y="1438" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-12_s" value="&lt;b&gt;UC-15&lt;/b&gt;&lt;br/&gt;View Transaction History" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="188" y="1498" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="reluc_R-12_t" value="&lt;b&gt;UC-05&lt;/b&gt;&lt;br/&gt;Open Dispute" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#282828;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="784" y="1498" width="356" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2_R-12" value="&amp;laquo;extend&amp;raquo;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;dashPattern=5 4;strokeColor=#303030;strokeWidth=1.55;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;" parent="1" edge="1" source="reluc_R-12_s" target="reluc_R-12_t">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="Dashed UML arrow points toward the base use case for «extend», and toward the required use case for «include». R-03 is pending an identified Resolve Dispute use case." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontColor=#212121;fontSize=13;fontColor=#555555;" parent="1" vertex="1">
+          <mxGeometry x="145" y="1724" width="2100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
