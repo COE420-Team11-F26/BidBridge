@@ -88,4 +88,6 @@ No artificial classes were added solely to increase the class count.
 - `Class_Diagram/` — one consolidated editable UML diagram, not four disconnected diagrams.
 - `Individual_Models/` — retain each student's individual diagram/table as evidence of contribution.
 
+## Lab 6 Update
 
+- Added `Bid.markRejected(): void`. The UC-01 sequence diagram (Lab 6) rejects every other bid once one bid is accepted, and FR-18 lists "rejected" as a bid status, but the Lab 5 `Bid` class had no operation to set it.

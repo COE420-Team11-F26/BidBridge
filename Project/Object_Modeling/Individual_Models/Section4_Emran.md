@@ -22,8 +22,6 @@ These classes represent the main objects needed for P5 (Handle Escrow Payments) 
 
 ![Section 4 UML class diagram](Section4_Emran_UML.png)
 
-Editable source: `Section4_Emran_UML.drawio`
-
 ## Associations and Multiplicities
 
 | Association | Multiplicity | Explanation |
