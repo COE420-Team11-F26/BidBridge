@@ -12,7 +12,7 @@ BidBridge uses the **three-layer (closed) architecture** selected in Exercise 2:
 2. **Application / Middleware layer:** Enforces business rules and coordinates the system's functions.
 3. **Data layer:** Persists and retrieves application records.
 
-Six architectural components are defined below. The four application-layer components follow the functional groupings in the consolidated Lab 5 class inventory. The Presentation and Data components are architectural boundaries, but the supplied Lab 5 class inventory does **not** define dedicated UI or repository/database classes. Their class lists are therefore empty rather than introducing classes that were not approved in Lab 5.
+Six architectural components are defined below. The four application-layer components follow the functional groupings in the consolidated Lab 5 class inventory. The Lab 5 class model only contained domain classes, so the Presentation and Data components had no classes. Six classes were therefore added to the team class diagram in Lab 8 for these two components: `WebController` and `PageRenderer` (C01), and `UserRepository`, `JobRepository`, `ActivityRepository` and `PaymentRepository` (C06). Their operations back the interfaces of these components in the Component Diagram.
 
 ## Components
 
@@ -21,7 +21,7 @@ Six architectural components are defined below. The four application-layer compo
 - **Layer:** Presentation
 - **Responsibilities:** Presents BidBridge pages and forms, collects user input, displays search results, bids, submissions, notifications, and payment or dispute statuses. Sends requests to application services rather than accessing stored data directly.
 - **Supported functionality:** Register and log in; view and edit a profile; browse jobs and bids; submit work; review disputes and payment status.
-- **Assigned Lab 5 classes:** None modeled in Lab 5 (architectural component only).
+- **Assigned classes:** `WebController`, `PageRenderer` (added in Lab 8)
 
 ### C02 — Account & Administration Management
 
@@ -56,7 +56,7 @@ Six architectural components are defined below. The four application-layer compo
 - **Layer:** Data
 - **Responsibilities:** Stores and retrieves the persistent data used by the application components, including accounts, profiles, jobs, bids, submissions, disputes, escrow and transactions. Provides controlled data access and supports backup/recovery; application rules remain in the Application layer.
 - **Supported functionality:** Store and retrieve system records; preserve transaction history; support backups and recovery.
-- **Assigned Lab 5 classes:** None modeled in Lab 5 (architectural component only).
+- **Assigned classes:** `UserRepository`, `JobRepository`, `ActivityRepository`, `PaymentRepository` (added in Lab 8)
 
 ## Component interaction and layer rules
 
@@ -76,5 +76,5 @@ Six architectural components are defined below. The four application-layer compo
 | G03 — Availability | C06 separates persistence and recovery responsibilities from the UI and business logic. |
 | G04 — Performance | Job search/query functions in C03 and data access in C06 can be optimized independently of the UI. |
 
-**Class inventory verification:** The supplied `Class_Inventory(1).md` contains 31 class rows across Sections 1–4, including repeat references to `Job`, `User`, `Client`, `Freelancer`, and `Administrator` in Section 3. After consolidating these shared classes, the document contains **26 unique classes**, all assigned once in `Class_Distribution.md`. The Section 4 class IDs (`C01`–`C05`) refer to class IDs, not the architectural component IDs.
+**Class inventory verification:** The supplied `Class_Inventory(1).md` contains 31 class rows across Sections 1–4, including repeat references to `Job`, `User`, `Client`, `Freelancer`, and `Administrator` in Section 3. After consolidating these shared classes, the document contains **26 unique classes**. With the 6 classes added in Lab 8 for C01 and C06, the model has **32 classes**, all assigned once in `Class_Distribution.md`. The Section 4 class IDs (`C01`–`C05`) refer to class IDs, not the architectural component IDs.
 

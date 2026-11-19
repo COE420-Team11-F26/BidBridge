@@ -91,3 +91,9 @@ No artificial classes were added solely to increase the class count.
 ## Lab 6 Update
 
 - Added `Bid.markRejected(): void`. The UC-01 sequence diagram (Lab 6) rejects every other bid once one bid is accepted, and FR-18 lists "rejected" as a bid status, but the Lab 5 `Bid` class had no operation to set it.
+
+## Lab 8 Update
+
+- Added `WebController` and `PageRenderer` (Presentation component C01) and `UserRepository`, `JobRepository`, `ActivityRepository` and `PaymentRepository` (Data component C06). Lab 5 only modeled domain classes, so the Presentation and Data components of the 3-layer architecture had no classes, and their interfaces in the Component Diagram could not be derived from class operations. The class model now has 32 classes.
+
+- Updated operations so the class model matches the Lab 6 sequence diagrams: added `Job.placeBid(amount: Decimal, days: int, info: String): boolean` and `Job.addBid(b: Bid): void` (UC-18), `Bid.checkField(field: String): boolean` (UC-18), `Bid.isEditable(): boolean` (UC-08), `Administrator.suspendUser(u: User, reason: String): ModerationAction` and `Administrator.reactivateUser(u: User, reason: String): ModerationAction` (UC-13); renamed `Bid.edit()` to `editBid()` (UC-08), `ModerationAction.validateReason()` to `hasValidReason()` and `User.updateStatus()` to `setStatus(newStatus: AccountStatus)` (UC-13).

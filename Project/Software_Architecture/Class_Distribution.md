@@ -6,17 +6,17 @@
 
 ## Component-to-class distribution
 
-Each approved Lab 5 class has **exactly one primary component**. A component may depend on classes in another component without taking ownership of them.
+Each class has **exactly one primary component**. This covers the 26 Lab 5 classes and the 6 classes added in Lab 8 for the Presentation and Data components. A component may depend on classes in another component without taking ownership of them.
 
 | ID | Component name | Layer | Responsibilities | Included classes | Count |
 |---|---|---|---|---|---:|
-| C01 | Presentation & Web Interface | Presentation | Displays pages, collects inputs and communicates with application services. | — (not modeled in Lab 5) | 0 |
+| C01 | Presentation & Web Interface | Presentation | Displays pages, collects inputs and communicates with application services. | `WebController`, `PageRenderer` (added in Lab 8) | 2 |
 | C02 | Account & Administration Management | Application | Manages accounts, role profiles, authentication, skills, portfolios and moderation. | `User`, `Client`, `Freelancer`, `Administrator`, `UserProfile`, `Skill`, `PortfolioItem`, `ModerationAction`, `AccountService` | 9 |
 | C03 | Jobs & Bidding Management | Application | Manages jobs, searches, bids, notifications and bid history. | `Job`, `Bid`, `Notification`, `JobSearch`, `BidHistory` | 5 |
 | C04 | Work Delivery & Dispute Management | Application | Manages work submissions, messages, revision requests, ratings and disputes. | `JobActivity`, `WorkSubmission`, `SubmissionFile`, `JobMessage`, `RevisionRequest`, `Rating`, `Dispute` | 7 |
 | C05 | Escrow & Payment Management | Application | Manages escrow, simulated payments, transaction history and balances. | `Escrow`, `Transaction`, `PaymentService`, `SimulatedPaymentService`, `PlatformBalance` | 5 |
-| C06 | Data Persistence & Storage | Data | Stores/retrieves records and provides backup/recovery support. | — (not modeled in Lab 5) | 0 |
-| **Total** | **6 components** | | | **All 26 unique Lab 5 classes assigned once** | **26** |
+| C06 | Data Persistence & Storage | Data | Stores/retrieves records and provides backup/recovery support. | `UserRepository`, `JobRepository`, `ActivityRepository`, `PaymentRepository` (added in Lab 8) | 4 |
+| **Total** | **6 components** | | | **All 32 classes assigned once (26 from Lab 5 + 6 added in Lab 8)** | **32** |
 
 ## Assignment by class (verified against uploaded inventory)
 
@@ -50,6 +50,12 @@ This detailed list can be used when drawing each component and its assigned clas
 | `C03` | `PaymentService` | C05 — Escrow & Payment Management | Application |
 | `C04` | `SimulatedPaymentService` | C05 — Escrow & Payment Management | Application |
 | `C05` | `PlatformBalance` | C05 — Escrow & Payment Management | Application |
+| `L8-C01` | `WebController` | C01 — Presentation & Web Interface | Presentation |
+| `L8-C02` | `PageRenderer` | C01 — Presentation & Web Interface | Presentation |
+| `L8-C03` | `UserRepository` | C06 — Data Persistence & Storage | Data |
+| `L8-C04` | `JobRepository` | C06 — Data Persistence & Storage | Data |
+| `L8-C05` | `ActivityRepository` | C06 — Data Persistence & Storage | Data |
+| `L8-C06` | `PaymentRepository` | C06 — Data Persistence & Storage | Data |
 
 **Shared classes in the original per-section tables:** `Job`, `User`, `Client`, `Freelancer`, and `Administrator` appear again in Section 3, but each has one primary assignment above. The Section 4 class IDs `C01`–`C05` are taken directly from the inventory and are distinct from the architectural component IDs.
 
@@ -61,14 +67,15 @@ This detailed list can be used when drawing each component and its assigned clas
 - `Notification` is owned by **C03** because it was grouped with jobs and bidding in the Lab 5 inventory. Other components may request notifications through its interface later.
 - `JobActivity` and its subclasses `WorkSubmission`, `JobMessage`, `RevisionRequest` and `Rating` are grouped in **C04**, preserving the Lab 5 inheritance structure.
 - `PaymentService` (interface) and `SimulatedPaymentService` (implementation) remain together in **C05**.
-- **C01 and C06 have no classes from the consolidated Lab 5 model**, because Lab 5 identified domain/application classes rather than UI controllers, database adapters, or repository classes. They are included to represent the selected three-layer architecture without inventing classes. If the team has since developed those classes, add them to the current UML and revise this distribution accordingly.
+- **C01 and C06 received new classes in Lab 8.** Lab 5 identified domain classes only, so `WebController` and `PageRenderer` (C01) and four repository classes (C06) were added to the team class diagram. Each repository stores the classes of one application component: `UserRepository` for C02, `JobRepository` for C03, `ActivityRepository` for C04 and `PaymentRepository` for C05.
 
 ## Consistency check
 
 - Number of architectural components: **6** (within the required 4–6).
 - Number of original class inventory rows: **31** (including five repeat entries).
 - Number of unique Lab 5 classes: **26**.
-- Number of unique classes assigned: **26**.
+- Classes added in Lab 8 (C01 and C06): **6**.
+- Number of unique classes assigned: **32**.
 - Classes assigned to multiple primary components: **0**.
 - Unassigned approved classes: **0**.
 - Cross-layer rule: **Presentation → Application → Data**; no Presentation → Data dependency.
